@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TechnicalBooks</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+  <div class="header">
+    <div class="title">
+     Technical Library Management System
+    </div>
+
+    <div class="search_box">
+      <input type="text" id="search_name" placeholder="TITLE">
+    </div>
+    <div class="search_box">
+      <input type="text" id="search_author" placeholder="Author">
+    </div>
+    <div class="search_box">
+      <input type="text" id="search_subject" placeholder="subject">
+    </div>
+    <div class="search_box">
+      <input type="date" id="search_date" placeholder="date">
+    </div>
+
+    <button id="search_button">Search</button>
+
+  </div>
+  <div class="table_wrap">
+    <div class="table_header">
+      <ul>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>TITLE</span>
+            </div>
+            <div class="author">
+              <span>AUTHOR</span>
+            </div>
+            <div class="subject">
+              <span>SUBJECT</span>
+            </div>
+            <div class="date">
+              <span>DATE</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="table_body">
+      <ul>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>C Programming</span>
+            </div>
+            <div class="author">
+              <span>Greg Perry</span>
+            </div>
+            <div class="subject">
+              <span>Tecincal</span>
+            </div>
+            <div class="date">
+              <span class="open">02-09-2013</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Python</span>
+            </div>
+            <div class="author">
+              <span>Paul Barry</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="reopened">04-08-2016</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Java</span>
+            </div>
+            <div class="author">
+              <span>Barry Burd</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="fixed">05-07-2011</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>HTML</span>
+            </div>
+            <div class="author">
+              <span>Thomas A.</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="closed">03-04-2010</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>CSS</span>
+            </div>
+            <div class="author">
+              <span>Eric A.</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="hold">08-09-2011</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Java Script(JS)</span>
+            </div>
+            <div class="author">
+              <span>Doulas Crockford</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="open">08-09-2008</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Angular JS</span>
+            </div>
+            <div class="author">
+              <span>Pawel Kozlowski</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="open">09-07-2013</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>C++</span>
+            </div>
+            <div class="author">
+              <span>Steve Oualline</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="canceled">07-05-2000</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>.NET</span>
+            </div>
+            <div class="author">
+              <span>Thuan Thai</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="fixed">08-02-2003</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>C#</span>
+            </div>
+            <div class="author">
+              <span>Andrew Stellman</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="hold">03-02-2020</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Machine Learning</span>
+            </div>
+            <div class="author">
+              <span>Drew Conway</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="canceled">28-01-2012</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Artificial Intelligence</span>
+            </div>
+            <div class="author">
+              <span>Patrick D.</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="canceled">28-07-2018</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Node JS</span>
+            </div>
+            <div class="author">
+              <span>Manuel Kiessling</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="canceled">28-05-2012</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <div class="name">
+              <span>Boot Strap</span>
+            </div>
+            <div class="author">
+              <span>Jacob Lett</span>
+            </div>
+            <div class="subject">
+              <span>Technical</span>
+            </div>
+            <div class="date">
+              <span class="canceled">11-08-2018</span>
+            </div>
+          </div>
+        </li>
+        
+    </div>
+  </div>
+
+<script src="stylesheet.js"></script>
+
+</div>
+</body>
+</html>
